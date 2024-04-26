@@ -1,78 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  color: #ffffff;
-  font-size: 18px;
+ 
+.navb a {
+  color:#ffffff;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
 }
-.heroimg {
-  background-image: url(asset/zomatohero.avif);
-  height: 570px;
-  width: 1519.2px;
-  display: flex;
-  flex-direction: column;
+.custom-column {
+  background-image: url(/asset/zomatohero.avif);
   background-size: cover;
-  align-items: center;
-}
-.navigation {
-  height: 72px;
-  width: 900px;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-.addrest {
-  height: 40px;
-  width: 144.65px;
-  background-color: transparent;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  align-items: center;
-}
-.login {
-  height: 40px;
-  width: 67.9px;
-  background-color: transparent;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  align-items: center;
-}
-.signup {
-  height: 40px;
-  width: 67.9px;
-  background-color: transparent;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  align-items: center;
 }
 .logopanel {
-  height: 276.4px;
-  width: 1519.2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 6rem;
 }
 .logo {
+  background-image: url(asset/logo.avif);
   height: 65px;
-  width: 310px;
   display: flex;
   align-items: center;
   background-size: cover;
 }
 .discription {
-  height: 84px;
-  width: 600px;
+  
   color: #ffffff;
   font-size: 36px;
   display: flex;
@@ -80,42 +30,28 @@ a {
   justify-content: center;
   margin: 40px;
 }
+.prime
+{
+ padding-bottom:20px ;
+}
 .dis2 {
   margin-top: 25px;
   color: #1c1c1c;
   font-size: 36px;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
 }
-.india {
-  height: 35px;
-  width: 55px;
-  display: flex;
+.dis3
+  {
+    font-size: 20px;
+    color: #696969;
+  }
+.d-flex
+{
   align-items: center;
-  background-size: cover;
-}
-.dis3 {
-  width: 1100px;
-  display: block;
-
-  margin-left: 209px;
-  margin-right: 209px;
-  margin-top: 20px;
-}
-.discription1 {
-  color: #696969;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  /* flex-direction: column; */
-  text-align: center;
-  margin-left: 60px;
-  margin-right: 60px;
 }
 .box {
   height: 65.6px;
-  width: 353px;
-  border: 0.4px solid #696969;
+  border: 0.4px solid grey ;
   border-radius: 5px;
   color: #1c1c1c;
   font-size: 20px;
@@ -125,55 +61,18 @@ a {
   padding-left: 2rem;
   margin: 1rem;
 }
-.row :hover {
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-.row {
-  display: flex;
-}
-.footer {
-  padding: 25px;
-  width: 1100px;
-  display: block;
-}
-.bzomato {
-  background-color: f8f8f8;
-  height: 28px;
-  width: 132px;
-  background-image: url(asset/bzomato.avif);
-  display: flex;
-  background-size: cover;
-  margin: 10px;
-}
-.link {
-  background-color: f8f8f8;
-  height: 40px;
-  width: 137px;
-
-  display: flex;
-  background-size: cover;
-  margin: 10px;
-}
-.para {
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-}
-.para p {
+.para p { 
   color: #696969;
   font-size: 14px;
-  padding-top: 10px;
-  /* padding-bottom: 10px; */
-}
-.foot {
-  background-color: #f8f8f8;
-  display: flex;
-  justify-content: space-around;
+  
+  padding-bottom:0.5rem;
 }
 .heading {
   font-size: 14px;
   color: black;
   font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom:1rem;
 }
 .divider {
   width: 70%;
@@ -182,12 +81,22 @@ a {
   color: #696969;
   font-size: 14px;
   padding-top: 10px;
-  width: 1100px;
+ 
   margin-left: 14rem;
 }
 .divider {
-  margin-left: 14rem;
+  
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.para.link1
+{
+  background-image: url(asset/bapple.webp);
+  
+}
+.para.link2
+{
+  background-image: url(asset/bplay.webp);
+}
+
